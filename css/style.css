@@ -1,0 +1,55 @@
+.landing{
+  background-image: url("../ip2/assets/backgrounds/landing.jpg");
+  text-align: center;
+  height: 500px;
+}
+.landing img{
+  height: 200px;
+}
+
+#bigrow{
+  border-style:solid;
+  height: 85px;
+  margin-left: inherit;
+  margin-right: inherit;
+  border-bottom: line;
+  height: 185px;
+}
+#smallrow{
+  border-style: : line;
+  border-style: inherit;
+}
+.party{
+  background-color: tomato;
+  padding-bottom: 50px;
+    position: relative;
+}
+.happy{
+  padding-bottom: 50px;
+  position: relative;
+}
+.align{
+  text-align: center;
+
+}
+#breakfast{
+  background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+    color: white;
+}
+#lunch{
+  background-image: url("../ip2/assets/foodtop/dinner.jpg");
+    color: white;
+}
+#dinner{
+  background-image:url("../ip2/assets/foodtop/lunch.jpg");
+    color: white;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.fastfood{
+  float: right;
+}
