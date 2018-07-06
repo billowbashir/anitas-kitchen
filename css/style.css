@@ -45,11 +45,28 @@
     color: white;
 }
 .box{
-  width: 100px;
-  height: 100px;
-  margin-left: 200px;
+  border-style:none;
+  margin-top: 100px;
+  margin-left: 300px;
+
+}
+.box img{
+  height:100px;
+  width:350px;
+}
+.drinks{
+  text-align: right;
   margin-top: 100px;
 }
 .fastfood{
-  float: right;
+  text-align: left;
+  margin-top: 100px;
+}
+.btn-default{
+  border-color: tomato;
+  background-color: white;
+  color: tomato;
+}
+.menu{
+  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
 }
