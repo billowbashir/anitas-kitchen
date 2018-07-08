@@ -68,7 +68,7 @@
   background-color: white;
   color: tomato;
 }
-.jumbotron{
+.jumbotron1{
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
   margin-top: 100px;
 }
@@ -76,4 +76,12 @@
   background-color: white;
   padding-right:0px;
   margin-right: 20px;
+}
+.spacing{
+  word-spacing: 200px;
+}
+.customer{
+margin: 100px;
+border-width: thin;
+border-style:line;
 }
