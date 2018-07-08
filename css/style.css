@@ -50,9 +50,10 @@
   margin-left: 300px;
 
 }
-.box img{
-  height:100px;
-  width:350px;
+.img-thumbnail{
+  margin-top: 100px;
+  margin-left: 100px;
+  padding-right: 50px;
 }
 .drinks{
   text-align: right;
@@ -67,6 +68,12 @@
   background-color: white;
   color: tomato;
 }
-.menu{
+.jumbotron{
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+  margin-top: 100px;
+}
+.contraption{
+  background-color: white;
+  padding-right:0px;
+  margin-right: 20px;
 }
