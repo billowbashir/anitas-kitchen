@@ -126,9 +126,12 @@ span{
 }
 .customer{
   text-align: center;
-margin: 50px;
+margin-top:-50px;
 border-width: thin;
 border-style: solid;
+margin-right: 50px;
+margin-left: 50px;
+height: 350px;
 }
 .customer h2{
   color: red;
@@ -138,7 +141,7 @@ border-style: solid;
 }
 .jumbotron2{
   background-color: white;
-  margin-bottom: 100px;
+  margin-bottom: -50px;
 }
 .jumbotron3{
   background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
@@ -146,15 +149,22 @@ border-style: solid;
   color: white;
   text-align: center;
   align-items: center;
+  color: white;
 }
 .jumbotron4{
   background-color: tomato;
+
 }
 .nav-item1{
   margin-right: 180px;
 }
-.col-md-4{
+.left {
   border-left: solid;
   border-width:thin;
-  border-style:inset;
+  height: 300px;
+  margin-top: 30px;
+}
+.footerlogos{
+  text-align:
+  align-content:  center;
 }
