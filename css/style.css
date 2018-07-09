@@ -30,6 +30,44 @@
 }
 .align{
   text-align: center;
+}
+#breakfast h2{
+  position: relative;
+  top: 90px;
+}
+#breakfast:hover h2{
+ color:black;
+opacity:0.6;
+
+}
+#breakfast:hover {
+opacity:0.6;
+
+}
+#lunch h2{
+  position: relative;
+  top: 90px;
+}
+#lunch:hover h2{
+ color:black;
+opacity:0.6;
+
+}
+#lunch:hover {
+opacity:0.6;
+
+}
+#dinner h2{
+  position: relative;
+  top: 90px;
+}
+#dinner:hover h2{
+ color:black;
+opacity:0.6;
+
+}
+#dinner:hover {
+opacity:0.6;
 
 }
 #breakfast{
@@ -43,6 +81,9 @@
 #dinner{
   background-image:url("../ip2/assets/foodtop/lunch.jpg");
     color: white;
+}
+#fastfood img{
+  margin-right: 50px;
 }
 .box{
   border-style:none;
@@ -74,14 +115,46 @@
 }
 .contraption{
   background-color: white;
-  padding-right:0px;
   margin-right: 20px;
 }
+span{
+  margin-left: 20px;
+}
 .spacing{
-  word-spacing: 200px;
+  word-spacing: 300px;
+  color: red;
 }
 .customer{
-margin: 100px;
+  text-align: center;
+margin: 50px;
 border-width: thin;
-border-style:line;
+border-style: solid;
+}
+.customer h2{
+  color: red;
+}
+.customer h3{
+  color: red;
+}
+.jumbotron2{
+  background-color: white;
+  margin-bottom: 100px;
+}
+.jumbotron3{
+  background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.jumbotron4{
+  background-color: tomato;
+}
+.nav-item1{
+  margin-right: 180px;
+}
+.col-md-4{
+  border-left: solid;
+  border-width:thin;
+  border-style:inset;
 }

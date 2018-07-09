@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>ANITAS KITCHEN</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -17,23 +18,23 @@
   <div class="col-md-3 align">
 <div class="row happy" id="smallrow">
   <div class="col-md-12 align">
-<p>happy hour</p>
+<h3>happy hour</h3>
 </div>
 </div>
 <div class="row party" id="smallrow">
   <div class="col-md-12 align">
-<p>party time</p>
+<h3>party time</h3>
 </div>
 </div>
   </div>
   <div class="col-md-3 align" id="breakfast">
-<p>breakfast</p>
+<h2>breakfast</h2>
   </div>
   <div class="col-md-3 align" id="lunch">
-<p>lunch</p>
+<h2>lunch</h2>
   </div>
   <div class="col-md-3 align" id="dinner">
-<p>dinner</p>
+<h2>dinner</h2>
   </div>
 </div>
 <div class="container-fluid">
@@ -73,24 +74,28 @@
 <div class="jumbotron jumbotron1">
   <div class="container contraption">
   <ul class="nav nav-tabs">
-  <li class="nav-item">
+  <li class="nav-item nav-item1">
     <a class="nav-link active" href="fastfood">fast foods</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="drinks">drinks</a>
+  <li class="nav-item nav-item1">
+    <a class="nav-link disabled" href="drinks">drinks</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="chicken">chicken</a>
+  <li class="nav-item nav-item1">
+    <a class="nav-link disabled" href="chicken">chicken</a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item nav-item1">
     <a class="nav-link disabled" href="rice">rice</a>
   </li>
 </ul>
   <div class="tab-content">
+
     <div class="tab-pane active" id="fastfood">
+      <i class="fas fa-angle-left"></i>
       <span><img src="ip2/assets/fastfood/beefBurger.jpg" alt="beef burger"></span>
       <span><img src="ip2/assets/fastfood/chickenBurger.jpg" alt="chicken burger"></span>
-      <span><img src="ip2/assets/fastfood/chickenPizza.jpg" alt="chicken Pizza"></span><br>
+      <span><img src="ip2/assets/fastfood/chickenPizza.jpg" alt="chicken Pizza"></span>
+<i class="fas fa-angle-right"></i>
+       <br>
       <p class="spacing">beef-burger chicken-burger chicken-pizza</p>
 
     </div>
@@ -101,12 +106,22 @@
   </div>
 </div>
 </div>
-<div class="jumbotron ">
+<div class="jumbotron jumbotron2">
   <div class="row customer">
-    <div class="col-md-6"> <h2>our happy customers</h2><h3>george richard</h3> <p>Great food!Menu is awesome their food are not only great but also at the right price.Ill highly recommend them</p></div>
+    <div class="col-md-6"> <h2>Our Happy Customers</h2><h3>George Richard</h3> <p>Great food!Menu is awesome their food are not only great but also at the right price.Ill highly recommend them</p>
+      <i class="fas fa-angle-left"></i><img src="ip2/assets/customers/p1.png" alt="customer1"><img src="ip2/assets/customers/p2.png" alt="customer2"><img src="ip2/assets/customers/p3.png" alt="customer3"><i class="fas fa-angle-right"></i>
+    </div>
     <div class="col-md-4"><h2>about menu</h2><p>we are menu alittle team of seven members we have Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
   </div>
+</div>
+<div class="jumbotron jumbotron3">
+<h3>get our daily food items delivered to your email</h3>
+<span class="form"><form class="form-inline" action="index.html" method="post">
+<input type="email" placeholder="your email">
+</form><button class="btn-danger" type="button">subscribe</button></span>
+</div>
+<div class="jumbotron jumbotron4">
 
 </div>
-  </body>
+</body>
 </html>
