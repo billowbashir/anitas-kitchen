@@ -2,20 +2,26 @@
 
 ## DESCRIPTION
 This is a website that gives information on our website and what we offer as a business.It gives contact details and a subscription choice for those who want to order through their email.
+
 ##AUTHOR
 By Bashir Hassan Billow
-##PREREQUISITES
+##
+PREREQUISITES
 you require a browser preferably chrome to run this site.You will require a texteditor if your planning on editing.
+
 ##BUILT WITH
 -html
 -css
 -bootstrap
 -google analytics
 -mailchimp
+
 ##LINK TO LIVE SITE
 https://billowbashir.github.io/anitas-kitchen/
+
 ##CONTACT DETAILS
 in case of any problems when accesing my site feel free to contact me on billowbashir@gmail.com your feedback will be highly appreciated
+
 ##LICENCE
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
