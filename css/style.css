@@ -6,7 +6,6 @@
 .landing img{
   height: 200px;
 }
-
 #bigrow{
   border-style:solid;
   height: 85px;
@@ -22,7 +21,7 @@
 .party{
   background-color: tomato;
   padding-bottom: 50px;
-    position: relative;
+  position: relative;
 }
 .happy{
   padding-bottom: 50px;
@@ -36,51 +35,45 @@
   top: 90px;
 }
 #breakfast:hover h2{
- color:black;
-opacity:0.6;
-
+  color:black;
+  opacity:0.6;
 }
 #breakfast:hover {
-opacity:0.6;
-
+  opacity:0.6;
 }
 #lunch h2{
   position: relative;
   top: 90px;
 }
 #lunch:hover h2{
- color:black;
-opacity:0.6;
-
+  color:black;
+  opacity:0.6;
 }
 #lunch:hover {
-opacity:0.6;
-
+  opacity:0.6;
 }
 #dinner h2{
   position: relative;
   top: 90px;
 }
 #dinner:hover h2{
- color:black;
-opacity:0.6;
-
+  color:black;
+  opacity:0.6;
 }
 #dinner:hover {
-opacity:0.6;
-
+  opacity:0.6;
 }
 #breakfast{
   background-image: url("../ip2/assets/foodtop/breakfast.jpg");
-    color: white;
+  color: white;
 }
 #lunch{
   background-image: url("../ip2/assets/foodtop/dinner.jpg");
-    color: white;
+  color: white;
 }
 #dinner{
   background-image:url("../ip2/assets/foodtop/lunch.jpg");
-    color: white;
+  color: white;
 }
 #fastfood img{
   margin-right: 50px;
@@ -89,7 +82,6 @@ opacity:0.6;
   border-style:none;
   margin-top: 100px;
   margin-left: 300px;
-
 }
 .img-thumbnail{
   margin-top: 100px;
@@ -126,12 +118,12 @@ span{
 }
 .customer{
   text-align: center;
-margin-top:-50px;
-border-width: thin;
-border-style: solid;
-margin-right: 50px;
-margin-left: 50px;
-height: 350px;
+  margin-top:-50px;
+  border-width: thin;
+  border-style: solid;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 350px;
 }
 .customer h2{
   color: red;
@@ -153,7 +145,6 @@ height: 350px;
 }
 .jumbotron4{
   background-color: tomato;
-
 }
 .nav-item1{
   margin-right: 180px;
@@ -165,12 +156,12 @@ height: 350px;
   margin-top: 30px;
 }
 .footerlogos{
-align-items: center;
-text-align: center;
+  align-items: center;
+  text-align: center;
 }
 .subscribe{
   background-color: red;
 }
 .boxmodel{
-border-style: solid 5px;
+  border-style: solid 5px;
 }
